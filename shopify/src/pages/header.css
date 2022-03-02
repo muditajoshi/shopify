@@ -1,0 +1,82 @@
+.header{
+    display:block;
+    background-color:cornflowerblue;
+    height: 20%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header h1{
+   align-items: center;
+   padding:5px 
+}
+
+.dropdown{
+   min-width:100px;
+   display: none;
+   background-color: antiquewhite;
+   position: absolute;
+   padding: 5px 8px;
+   box-shadow: 2px 5px 8px ;
+}
+
+
+
+.header {
+    overflow: visible;
+    background-color: #0f0101;
+    padding: 10px 8px;
+  }
+  
+  .header a {
+    float: inline-end;
+    color: #A020F0;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  
+.dropdwn{
+width: 300px;
+}
+
+  .header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+  }
+  
+
+   @media screen and (max-width: 550px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align:center; 
+    }
+    
+    
+    .header-right {
+      float:right;
+    }
+    #header{
+        height: 40px;
+        float: right;
+}
+     .searchbar{
+        float: inline-start;
+        width: 60%;
+     } 
+     #Cataloge:hover.dropdown{
+       display:block;
+       font-size: 20px;
+     }
+
+     
+    
+  
+}
+  

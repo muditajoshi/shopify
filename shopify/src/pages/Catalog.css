@@ -1,0 +1,10 @@
+.cart-product-img{
+    width: 10%;
+    height : 10%;
+}
+
+.box-shadow{
+    background: rgb(238, 232, 232);
+  box-shadow: 4px 3px 8px 1px #969696;
+    -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
